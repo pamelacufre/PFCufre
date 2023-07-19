@@ -1,0 +1,18 @@
+/*estilos al pie de página*/
+.footer{
+    background-color: #FF9B9B;
+    display: flex;
+    justify-content:$center;
+    margin-top: 10px;
+    .pie{
+        /*background-color: #EAB2A0;*/
+        text-align: $center;
+        a{
+            color:#470202 ;
+            font-size: 11px;
+            text-transform: uppercase;
+            padding: 0 10px;
+            letter-spacing: 2px;
+        }  
+    }
+}

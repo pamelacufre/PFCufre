@@ -1,0 +1,13 @@
+$fondos:(
+    fondo-primario: #FFFEC4,
+    fondo-hover: #FF8989,
+);
+
+
+@each $fondo, $color in $fondos {
+    .#{$fondo}{
+        background-color: $color;
+
+    }
+
+}

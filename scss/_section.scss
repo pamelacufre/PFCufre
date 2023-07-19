@@ -1,0 +1,36 @@
+.section{
+    /*background-color: #FFC26F;*/
+    background-image: linear-gradient(#FFC95F,#FFD89C);
+    display: flex;
+    .articulos{
+        /*background-color: #CBFFA9;*/
+        flex:2 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+        .article{
+            flex:1 1 40%;
+            color:#470202;
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin: 10px 10px 0 0px;
+            flex: 1 1 45%;
+            background-color:$fondo-primario;
+            img{
+                width: 80%;
+                h2{
+                    color: $fondo-primario;
+                    font-size: 1px;
+                    padding: 10px 0;
+                    margin-top: -80px;
+                    h6{
+                        font-size: 1px;
+                        text-transform: uppercase;
+                        padding: 0px 0 10px 0;
+                        color: $fondo-primario;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

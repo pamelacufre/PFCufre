@@ -1,0 +1,17 @@
+/*body*/
+body{
+    font-family: 'Roboto', sans-serif;
+    /*text-decoration: none;
+    display: grid;*/
+    @include flexible(grid, none);
+    .padre{
+        display:flex;
+        flex-flow: column nowrap;
+        text-decoration: none;
+        .margen-interno{
+            padding: 0 50px;
+            text-decoration: none;
+        }
+
+    }
+}

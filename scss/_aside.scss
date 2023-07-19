@@ -1,0 +1,21 @@
+/*estilos al aside/publicidades*/
+.aside{
+    /*background-color:#98EECC;*/
+    flex:1 1 auto;
+    margin: 10px 5px 10px 0;
+    img{
+        width: 100%;
+        h4{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: #FF9B9B;
+            color:#fff;
+            padding: 10px;
+            text-transform: uppercase;
+            text-align: $center;
+            .button2{
+                @extend .ubotton;
+                    
+                    }
+        }
+    }
+}

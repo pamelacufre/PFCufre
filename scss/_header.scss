@@ -1,0 +1,96 @@
+.header{
+    background-image: url('../imagenes/fondo.jpg');
+    background-position: $center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    .menu{
+        /*background: rgba(red, green, blue, alpha);*/
+        display: flex;
+        flex-flow: row nowrap;
+        height: 60px;
+        align-items: $center;
+        border-bottom:1px solid rgba(255,255,255,.5);
+        text-decoration: none;
+        .logo{
+            flex:1 1 auto;
+            color: $fondo-primario;
+            text-decoration: none;
+            a{
+                color: $fondo-primario;
+                text-decoration: none;
+                font-size: 30px;
+                text-decoration: none;
+                &:hover{
+                    color:$fondo-hover;
+                    transform: scale(5);
+                    .button{
+                        .button{
+                            @extend .ubotton;
+                        .button2{
+                            @extend .ubotton;
+                                }
+                        }
+                    }
+                }
+            }
+        
+        }
+
+    }
+
+}
+
+.nav{
+            
+    flex:5 1 auto;    
+    a{
+        color: $fondo-primario;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding:0 10px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        &:hover{
+            color:$fondo-hover;
+        }
+    }
+}
+.social{
+    flex:1 1 auto;
+    display: flex;
+    a{
+        font-size: 18px;
+        color: $fondo-primario;
+        padding:0 5px;
+        &:hover{
+            color:$fondo-hover;
+            transform: scale(1.5);
+            
+        }
+    }
+}
+
+.texto-principal{
+    text-align: $center;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color: $fondo-primario;
+    line-height: 1.6;
+    font-size: 21px;
+    height: 580px;
+    display: flex;
+    align-items:end;
+    text-decoration: none;
+    h1{
+        /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+        font-size: 21px;
+        color: $fondo-primario;
+        font-weight: 300;
+        text-align: $center;
+        line-height: 1.6;
+        text-decoration: none;
+    }
+    
+}

@@ -1,0 +1,81 @@
+/*vista mobile*/
+/*@media (max-width:576px){*/
+    @media only screen and (min-width: 320px) and (max-width: 576px){
+        .section{
+            flex-direction: column;
+            text-decoration: none;
+        }
+        .menu{
+            flex-direction: column;
+            height: auto;
+            text-decoration: none;
+        }
+        .aside{
+            display: flex;
+            justify-content: $center;
+            text-decoration: none;
+        }
+    }
+    @media (max-width:576px){
+        .articulos{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+    
+    @media (max-width:576px){
+        .aside{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+    
+    @media (max-width:576px){
+        .h1{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+    
+    
+    @media (max-width:576px){
+        .suscripcion{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+    
+    @media (max-width:576px){
+        .ul{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+    
+    @media (max-width:576px){
+        .nav aria-label{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+    
+    @media (max-width:576px){
+        .img {
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+
+    @media (max-width:576px){
+        .button{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }
+
+    @media (max-width:576px){
+        .button2{
+            flex-direction: column;
+            text-decoration: none;
+        }
+    }

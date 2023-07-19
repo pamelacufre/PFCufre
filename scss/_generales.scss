@@ -1,0 +1,24 @@
+/*estilo general*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.grid{
+    column-gap: 10px;
+    row-gap: 15px;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.col{
+    display:grid;
+    grid-template-columns: 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px;
+    justify-items: stretch;
+
+}
+

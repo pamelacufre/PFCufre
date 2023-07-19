@@ -1,0 +1,12 @@
+.navegacion{
+    background-color: $fondo-hover;
+    flex:1 1 100%;
+    margin: 10px 10px 0 0px;
+    a{
+        color: #CBFFA9;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+    }
+}
