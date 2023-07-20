@@ -1,21 +1,44 @@
 /*estilos al aside/publicidades*/
-.aside{
+.aside {
     /*background-color:#98EECC;*/
     flex:1 1 auto;
     margin: 10px 5px 10px 0;
-    img{
+
+    .publicidad {
+        text-align: $center;
+        padding: 2px;
+
+    h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: #FF9B9B;
+        color:#fff;
+        padding: 10px;
+        text-transform: uppercase;
+        text-align: $center;
+    }
+
+    img {
         width: 100%;
-        h4{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background: #FF9B9B;
-            color:#fff;
-            padding: 10px;
-            text-transform: uppercase;
-            text-align: $center;
-            .button2{
-                @extend .ubotton;
-                    
-                    }
-        }
+    }
+    }
+
+    .button2 {
+        @extend .ubotton;
     }
 }
+
+.youtube-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

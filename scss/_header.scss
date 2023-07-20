@@ -14,15 +14,18 @@
         align-items: $center;
         border-bottom:1px solid rgba(255,255,255,.5);
         text-decoration: none;
+        
         .logo{
             flex:1 1 auto;
             color: $fondo-primario;
             text-decoration: none;
+            
             a{
                 color: $fondo-primario;
                 text-decoration: none;
                 font-size: 30px;
                 text-decoration: none;
+                
                 &:hover{
                     color:$fondo-hover;
                     transform: scale(5);
