@@ -29,8 +29,9 @@
             text-decoration: none;
         }
     }
+
     
-    @media (max-width:576px){
+        @media (max-width:576px){
         .h1{
             flex-direction: column;
             text-decoration: none;
@@ -58,30 +59,38 @@
             text-decoration: none;
         }
     }
-    
     @media (max-width:576px){
         .img {
             flex-direction: column;
             text-decoration: none;
         }
     }
-
-    @media (max-width:576px){
-        .button{
-            flex-direction: column;
-            text-decoration: none;
-        }
-    }
-
-    @media (max-width:576px){
-        .button2{
-            flex-direction: column;
-            text-decoration: none;
-        }
-    }
-
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 576px) {
         .youtube-video {
         padding-bottom: 75%;
         }
     }
+    @media only screen and (min-width: 320px) and (max-width: 576px) {
+
+        .ubotton {  
+            font-size: 8px;
+            }
+        }
+
+        /* Responsive para pantallas entre 577px y 768px */
+        @media only screen and (min-width: 577px) and (max-width: 768px) {
+            .ubotton {
+                font-size: 12px;
+            }
+        }
+        
+        /* Responsive para pantallas mas largas que 768px */
+        @media only screen and (min-width: 769px) {
+            .ubotton {
+            
+        font-size: 10px;
+            
+            }
+        }
+        
+    

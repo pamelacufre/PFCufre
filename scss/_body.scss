@@ -1,8 +1,11 @@
 /*body*/
+a{
+    text-decoration: none;
+}
 body{
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    /*text-decoration: none;
-    display: grid;*/
+    /*display: grid;*/
     @include flexible(grid, none);
     .padre{
         display:flex;
@@ -11,7 +14,8 @@ body{
         .margen-interno{
             padding: 0 50px;
             text-decoration: none;
-        }
+            }
 
+        }
     }
-}
+

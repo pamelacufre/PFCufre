@@ -10,10 +10,11 @@
         /*background: rgba(red, green, blue, alpha);*/
         display: flex;
         flex-flow: row nowrap;
-        height: 60px;
+        height: auto;
         align-items: $center;
         border-bottom:1px solid rgba(255,255,255,.5);
         text-decoration: none;
+        flex-direction: row;
         
         .logo{
             flex:1 1 auto;
@@ -75,8 +76,14 @@
         }
     }
 }
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+    
 
-.texto-principal{
+    .texto-principal{
     text-align: $center;
     font-family:Georgia, Times, 'Times New Roman', serif;
     color: $fondo-primario;
@@ -87,13 +94,12 @@
     align-items:end;
     text-decoration: none;
     h1{
-        /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
         font-size: 21px;
         color: $fondo-primario;
         font-weight: 300;
         text-align: $center;
         line-height: 1.6;
         text-decoration: none;
+        }
     }
-    
 }

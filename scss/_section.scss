@@ -1,13 +1,19 @@
+
 .section{
     /*background-color: #FFC26F;*/
     background-image: linear-gradient(#FFC95F,#FFD89C);
     display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-content: center;
     .articulos{
         /*background-color: #CBFFA9;*/
         flex:2 1 auto;
         display: flex;
         flex-flow: row wrap;
+        align-content: center;
         .article{
+            align-content: center;
             flex:1 1 40%;
             color:#470202;
             font-size: 13px;
@@ -15,8 +21,10 @@
             margin: 10px 10px 0 0px;
             flex: 1 1 45%;
             background-color:$fondo-primario;
-            img{
+                img{
                 width: 80%;
+                padding: 5px;
+                margin: 10px;
                 h2{
                     color: $fondo-primario;
                     font-size: 1px;
